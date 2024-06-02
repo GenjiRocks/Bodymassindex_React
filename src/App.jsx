@@ -10,40 +10,12 @@ function App() {
   const [bmi, setbmi] = useState(0);
   const [result, setResult] = useState('');
 
-  // const [IsHeight, setIsHeight] = useState(true);
-  // const [IsWeight, setIsWeight] = useState(true);
-
-//   const validate = (e)=>{
-//     let name = e.target.name
-//     let value = e.target.value
-//     if(!!getValue.match(/^[0-9]*$/)){
-//       if(name == 'height'){
-//         setIsHeight(true);
-//         setHeight(value)
-//       }
-//       else if(name == 'weight'){
-//         setIsWeight(true);
-//         setweight(value)
-//       }
-//     }
-//     else{
-//       if(name == 'height'){
-//         setIsHeight(false);
-//         setHeight(value)
-//     }
-//     else if(name == 'weight'){
-//       setIsWeight(false);
-//       setweight(value)
-//   }
-// } }
-
 const handleReset = ()=>{
   setHeight(0);
   setweight(0);
   setbmi(0);
   setResult('');
-  // setIsHeight(true);
-  // setIsWeight(true);
+ 
 }
 
 const calculate = ()=>{
