@@ -1,8 +1,35 @@
-# React + Vite
+# React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Link
+You can view the live project [here](<https://bodymassindex-react.vercel.app/>).
 
-Currently, two official plugins are available:
+## Introduction
+Developed a responsive BMI calculator using React.js, enabling users to calculate their BMI and receive instant health status feedback. Implemented clean UI and real-time calculation for enhanced user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+To install the project, follow these steps:
+
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/GenjiRocks/Bodymassindex_React.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```sh
+    cd Bodymassindex_React
+
+    ```
+
+3. **Install the dependencies:**
+
+    ```sh
+    npm install
+    ```
+
+## Running the Project
+To run the project, use the following command:
+
+```sh
+npm run dev
